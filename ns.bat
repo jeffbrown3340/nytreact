@@ -1,0 +1,3 @@
+cls
+webpack
+node server

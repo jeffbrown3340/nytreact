@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+	
+}
+
+
+form {
+	border-style: solid;
+	margin: 5px;
+	border-width: 2px #CCC;
+	padding: 10px;
+
+}
+
+h3{
+	background-color:#191170;
+	border-style: solid;
+	margin: 5px;
+	border-width: 2px #CCC;
+	padding: 10px 10px 10px 10px;
+	color: white;
+}
