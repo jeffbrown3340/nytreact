@@ -38,25 +38,26 @@ app.get("/api", function(req, res) {
       console.log(err);
     }
     else {
+      console.log("doc=", doc);
       res.send(doc);
     }
   });
 });
 
 
-app.post("/api", function(req, res) {
-	console.log("fired server post api");
-	Article.create({
-		title: "Test Title Post",
-		date: Date.now()
-	}, function(err){
-		if (err){
-			console.log(err);
-		} else {
-			res.send("Saved Test Title 2");
-		}
-	});
-});
+// app.post("/api", function(req, res) {
+// 	console.log("fired server post api");
+// 	Article.create({
+// 		title: "Test Title Post",
+// 		date: Date.now()
+// 	}, function(err){
+// 		if (err){
+// 			console.log(err);
+// 		} else {
+// 			res.send("Saved Test Title 2");
+// 		}
+// 	});
+// });
 
 
 // app.get("/scrape", function(req, res) {
