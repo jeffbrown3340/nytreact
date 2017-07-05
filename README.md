@@ -1,2 +1,2 @@
 # nytreact
-![Output Screenshot](CAPTURE.PNG)
+![Output Screenshot](Capture.PNG)
